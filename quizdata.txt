@@ -107,7 +107,7 @@
 	"q106":"nordfeldt",
 	"q107":"candreva",
 	"q108":"schurrle",
-	"q109":"pirlo",qq
+	"q109":"pirlo",
 	"q110":"grosicki",
 	"q111":"nolito",
 	"q112":"nani",
