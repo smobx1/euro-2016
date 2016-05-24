@@ -82,3 +82,5 @@ function initApp() {
           initApp();
       }
 // }, 10000);
+
+alert("sal");
