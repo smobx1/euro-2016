@@ -4,12 +4,12 @@ var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
     // banner: 'ca-app-pub-6869992474017983/9375997553',
-    interstitial: 'ca-app-pub-2785420618056516/7921769986'
+    interstitial: 'ca-app-pub-2785420618056516/6254416784'
   };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
   admobid = { // for iOS
     // banner: 'ca-app-pub-6869992474017983/4806197152',
-    interstitial: 'ca-app-pub-2785420618056516/1875236383'
+    interstitial: 'ca-app-pub-2785420618056516/1824217189'
   };
 } else {
   admobid = { // for Windows Phone
@@ -58,7 +58,7 @@ function initApp() {
               // this will load a full screen ad on startup
               AdMob.prepareInterstitial({
                 adId: admobid.interstitial,
-                // isTesting: true, // TODO: remove this line when release
+                isTesting: true, // TODO: remove this line when release
                 autoShow: true
               });
     }
@@ -68,7 +68,7 @@ function initApp() {
         someAdCode();
         // schedule it to repeat every 2 minutes
         setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
-    }, 750);
+    }, 500);
 
 
 
