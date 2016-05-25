@@ -8,9 +8,9 @@
 	"shareMessage":"Tocmai am trecut de nivelul $level din PictureQuiz.",
 	"label_quit":"Esti sigur ca vrei sa iesi ?",
 	"label_reset":"Esti sigur ca vrei sa incepi din nou ?",
-	"label_nocoins":"You don't have enough coins !",
-	"label_reveal":"Revealing a letter will cost you 4 coins, continue?",
-	"label_remove":"Removing a letter will cost you 2 coins, continue?",
-	"label_end":"Congratulation ! you have successfully completed all the levels !",
+	"label_nocoins":"Nu ai suficiente coinuri !",
+	"label_reveal":"Sa aflii 1 litera costa 4 coinuri, continui?",
+	"label_remove":"Sa elimini 2 litere costa 2 coinuri, continui?",
+	"label_end":"Felicitari! Esti un as in fotbal, ai terminat jocul !",
 	"alphabet":"a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z"
 }}
