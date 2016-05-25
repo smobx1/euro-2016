@@ -70,7 +70,13 @@ function initApp() {
         setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
     }, 750);
 
-
+///////     rewar                                         ded video
+    // preppare and load ad resource in background, e.g. at begining of game level
+    if(AdMob) AdMob.prepareRewardVideoAd( {adId:admobid.interstitial, autoShow:false} );
+    'ca-app-pub-2785420618056516/9648535187'
+    // show the interstitial later, e.g. at end of game level
+    if(AdMob) AdMob.showRewardVideoAd();
+///////     rewarded video
 
 
 
@@ -82,5 +88,3 @@ function initApp() {
           initApp();
       }
 // }, 10000);
-
-// alert("sal");
