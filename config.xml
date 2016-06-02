@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "euro.nameit.example"
-        versionCode = "6"
-        version     = "1.0.6" >
+        versionCode = "8"
+        version     = "1.0.8" >
 
 
     <!-- versionCode is optional and Android only -->
@@ -71,12 +71,12 @@
     <!-- END SPLASH -->
 
         <!-- ANDROID ICONS -->
-        <icon src="images/android/mimap-ldpi/ic_launcher.png" platform="android" qualifier="ldpi" />
-        <icon src="images/android/mimap-mdpi/ic_launcher.png" platform="android" qualifier="mdpi" />
-        <icon src="images/android/mimap-hdpi/ic_launcher.png" platform="android" qualifier="hdpi" />
-        <icon src="images/android/mimap-xhdpi/ic_launcher.png" platform="android" qualifier="xhdpi" />
-        <icon src="images/android/mimap-xxhdpi/ic_launcher.png" platform="android" qualifier="xxhdpi" />
-        <icon src="images/android/mimap-xxxhdpi/ic_launcher.png" platform="android" qualifier="fr-xxhdpi" />
+        <icon src="images/android/mipmap-ldpi/ic_launcher.png" platform="android" qualifier="ldpi" />
+        <icon src="images/android/mipmap-mdpi/ic_launcher.png" platform="android" qualifier="mdpi" />
+        <icon src="images/android/mipmap-hdpi/ic_launcher.png" platform="android" qualifier="hdpi" />
+        <icon src="images/android/mipmap-xhdpi/ic_launcher.png" platform="android" qualifier="xhdpi" />
+        <icon src="images/android/mipmap-xxhdpi/ic_launcher.png" platform="android" qualifier="xxhdpi" />
+        <icon src="images/android/mipmap-xxxhdpi/ic_launcher.png" platform="android" qualifier="fr-xxhdpi" />
 
         <!-- iPhone 6 / 6+ -->
         <icon src="images/ios/iTunesArtwork.png" platform="ios" width="180" height="180" />
